@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Smooth scrolling for anchor links
+  
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Add animation to cards on scroll
+  
   const cards = document.querySelectorAll(".card");
   const animateCards = () => {
     const triggerBottom = (window.innerHeight / 5) * 4;
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("scroll", animateCards);
 
-  // Initialize tooltips
+  
   var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')
   );
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", () => {
   const backToTop = document.getElementById("backToTop");
 
-  // Show button on scroll
+  
   window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {
       backToTop.style.display = "flex";
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Smooth scroll to top
+  
   backToTop.addEventListener("click", () => {
     window.scrollTo({
       top: 0,
@@ -68,13 +68,13 @@ document.addEventListener("DOMContentLoaded", function () {
       scrollContainer.scrollLeft >=
       scrollContainer.scrollWidth - scrollContainer.clientWidth
     ) {
-      scrollStep = -1; // Reverse direction
+      scrollStep = -1; 
     } else if (scrollContainer.scrollLeft === 0) {
-      scrollStep = 1; // Forward direction
+      scrollStep = 1; 
     }
-  }, 20); // Adjust scrolling speed
+  }, 20); 
 
-  // Pause scrolling on hover
+  
   scrollContainer.addEventListener("mouseenter", () => {
     clearInterval(scrollInterval);
   });
