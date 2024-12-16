@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioBiz - Accelerating India's Sustainability Through Biomass</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAA9lBMVEVHcEwYvTsg8VYg8FU06V8g8FUf7lQcxkI12Vke5U8f7VMh7FQf7VQg8VYc3ksRujUg71Uc30wc4UwX0kQTvDgStTIr11Im51UYuDog6lISuzcj6lQgvkAd20sY2UcW0EIf6VEPvzYPwDgRxjst5lo/3GE/zl0VxTwQxTkp3VRD22M/014PtTIk1EsTrjIOrC0PujEMtS9R4m8NvDEOuzEHqSkPtjA6w1dZ6nc4xVda63gTtTM5wVUMri0PrC0MrisvtEgsuUY/xFsQpywvukg9wlkIjCIHlCMKjiMxu0oOfyMMhiQQgiVAxlwwq0kJdB8JdR8GcR2QUuqjAAAAUnRSTlMAF2GJUpCNDEnCsqmXho4+y8vUsI5xLt8l7Yf9WJ/f4HrH0Pvq0sWY6vfKs0tzXqv/eJ2z74ne6Ivsffnal/3twvDJtePOR9/I2qt7s8yvkl+IsA6TCgAAAjBJREFUeAFsyrUBw0AAwMBnZt5/0cTM10rgAiK8QBB8IhRvGHlXLqhU2tiJ0Uo6z+8ZUR0WxsiYUoy51MvSKGNh1XuUAsYYSylj74Niq+ZKdP/XOQ4IskNBFL2NMdrxIC9tBG3bGOx/M7/qfQ9OnHsKun4FgISU8deg5e7iDJDU9RBVJMkwDCMNSfic9ub8Grg06Yb7BJEmwQJDA+4eHlNPT0na1nwGoirzIFvIDe8ebOFosJ0YYJ4rN2aWyeULRloB+ZGUIOECKBYvlJJumnpcCuVyxajyCpTbtkOu4RRF0VS5qpbNlomKy+9UL+xiAag6TsF5AnORVVnI1QB4QhQMIWgByw98x+F/UZ7A1AGNhBhiougHjaDpE2aJ4AksKHBbtqCpbrvpp20/rSFUY6HTkUI3iqDVELxru93I+PavBUq9jjQq3T5arZYo8Crt0GDge2BqnHeG1KDbZWHUjgGjTDCeDPxm2nWnsw7Ty1HeR0CGR4aNyWQ89v3xeDCb/TQqUnBZ8Nr2KDSeZELQRuMZwRPmcxKi9IcFb1GNjTUw1SUxXM3n8xUJCkA7sKCtN9sQCGtHUE5CnSaAW7AQWm82m/2h1V7+Eoh6Vzat/uygbSSU/+1wCUl1QUIMMj8epcD56SRzJjZaLDJobTbbPTHd7YYnYuriD5dWYCAkY2bxQry+XvwVtMvLyxDejr+E13fidY1/UMgADr8Mmb8BHwyFjW9yIqTQEGjv1J/jEH7xA/xreJn+0TCwAAAAAElFTkSuQmCC"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand ms-0" href="index.html">
+            <img
+              src="https://biobiz.in/wp-content/uploads/2023/12/biobiz-logo.png"
+              alt="BioBiz"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://biobiz.in/about/">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://biobiz.in/category/updates/"
+                  >India updates</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://biobiz.in/s/opp/"
+                  >Opportunities</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://biobiz.in/s/consulting"
+                  >BioBiz Consulting</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://biobiz.in/category/innovation-insights/"
+                  >Innovation Insights</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://biobiz.in/insights/"
+                  >Insights</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="https://biobiz.in/s/energy"
+                      >Bioenergy</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://biobiz.in/s/env"
+                      >Environmental Solutions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://biobiz.in/s/vap"
+                      >Bio Products</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://biobiz.in/s/st"
+                      >Bio-based Science & tech Pathways</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.biobiz.in/s/bring/in/reg"
+                      >Regional Biomass Residues</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://biobiz.in/s/bring/in/"
+                      >India Biomass Residues</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://biobiz.in/s/ref/bioeconomy"
+                      >Indian Bioeconomy</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://biobiz.in/s/bring">BRING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://biobiz.in/contact/"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="position-relative d-flex align-items-center text-white"
+        class="section-spacing"
+      >
+        <video class="bg-video" autoplay muted loop playsinline>
+          <source src="https://biobiz.in/2024/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.Please update or use a
+          supported browser.
+        </video>
+        <div class="container text-center position-relative z-1">
+          <div>
+            <a
+              href="https://biobiz.in/s/opp/"
+              class="btn btn-success btn-lg me-2 animate__animated animate__zoomIn"
+              >Explore Solutions</a
+            >
+            <a
+              href="https://biobiz.in/contact/"
+              class="btn btn-outline-light btn-lg animate__animated animate__zoomIn"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </section>
+      <button id="backToTop" class="btn btn-success rounded-circle">
+        <i class="bi bi-arrow-up"></i>
+      </button>
+
+      <section
+        id="scrolling-container"
+        class="py-5 bg-light"
+        class="section-spacing"
+      >
+        <div class="container">
+          <h2 class="text-center mb-4">India Updates</h2>
+          <div class="scroll-wrapper d-flex">
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <p class="card-title">
+                  World's Largest Sustainable Aviation Fuel Plants By TruAlt
+                </p>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Biofuel production from Seaweed Biomass: HPCL partners with
+                  Sea6 Energy
+                </h5>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Green Hydrogen Plant in Baddi: Oil India and Himachal Pradesh
+                  Power Corporation partner
+                </h5>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Bio-CNG Plants in 2 Cow Shelters by Greater Noida Authority
+                </h5>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Biogas Plant to Be Revived by Faridabad Municipal Corporation
+                </h5>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Straw-Based Biogas Plant Commercialization
+                </h5>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Biofuel from Carbon Dioxide: New Tech Developed by IIT
+                  Guwahati
+                </h5>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Biodiesel Deliveries: Aemetis India Completes $103 Million to
+                  OMCs
+                </h5>
+              </div>
+            </div>
+            <div class="card shadow-sm mx-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Green Hydrogen: TKIL Partners with Sohhytec
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-5" class="section-spacing">
+        <div class="container-fluid">
+          <div class="row justify-content-center text-align-left">
+            <div class="col-md-8 text-center">
+              <p class="lead mb-5">
+                At <strong>BioBiz</strong>, we are keen to capitalize on India's
+                rich biodiversity and the availability of large amounts of
+                biomass residues to develop a sustainable bio-economy and
+                attractive business opportunities for diverse stakeholders
+                -farmers, rural stakeholders, end-use industries, entrepreneurs
+                / startups, and financial investors.
+              </p>
+              <p class="lead mb-5">
+                As part of a leading climate tech consulting firm, we will
+                provide critical assistance with market intelligence,
+                data-driven analyses, professional networking, and opportunities
+                for relevant stakeholders to get effective visibility. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="mb-4 text-center">Main Section</h2>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <a href="https://biobiz.in/s/opp/">
+                <div
+                  class="card h-100 shadow-sm bg-card"
+                  style="background-image: url('images/opertinuty.jpg')"
+                >
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Opportunities</h3>
+                    <p class="card-text">
+                      Connect with stakeholders and discover sustainable
+                      business opportunities in the bio-economy sector.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 mb-4">
+              <a href="https://biobiz.in/s/consulting">
+                <div
+                  class="card h-100 shadow-sm bg-card"
+                  style="background-image: url('images/conc.jpg')"
+                >
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Consulting</h3>
+                    <p class="card-text">
+                      Expert guidance on biomass utilization, market
+                      intelligence, and sustainable development strategies.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 mb-4">
+              <a href="https://biobiz.in/insights/">
+                <div
+                  class="card h-100 shadow-sm bg-card"
+                  style="background-image: url('images/insight.jpg')"
+                >
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Insights</h3>
+                    <p class="card-text">
+                      Access comprehensive research, analytics, and industry
+                      trends in the biomass sector.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 mb-4">
+              <a href="https://biobiz.in/category/innovation-insights/">
+                <div
+                  class="card h-100 shadow-sm bg-card"
+                  style="background-image: url('images/inovation.jpg')"
+                >
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Innovation Insights</h3>
+                    <p class="card-text">
+                      Collection of latest innovations and researches that are
+                      taking place in the intersection of biotech and
+                      sustainability.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 mb-4">
+              <a href="https://biobiz.in/s/bring">
+                <div
+                  class="card h-100 shadow-sm bg-card"
+                  style="background-image: url('images/intel.jpg')"
+                >
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Biomass Residue Intelligence</h3>
+                    <p class="card-text">
+                      start aggregating intelligence for all the relevant
+                      biomass residues, with the aim of getting all these
+                      utilized productively.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="py-5" class="section-spacing">
+        <div class="container">
+          <h2 class="text-center mb-5">Other Section</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4">
+              <a href="https://biobiz.in/category/updates/">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">India Updates</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <a href="https://biobiz.in/s/weekly">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Weekly Updates</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <a href="https://biobiz.in/s/bring">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">BRING</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <a href="https://biobiz.in/s/bring/in/">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">India Biomass Residues</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h6 class="text-center mb-5">
+            BioBiz is a division of Energy Alternatives India (EAI)
+          </h6>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="mb-3">About BioBiz</h5>
+            <p>
+              BioBiz is committed to accelerating sustainability in India
+              through innovative solutions and partnerships in biomass
+              utilization.
+            </p>
+            <p>&copy; 2024 BioBiz India. All rights reserved.</p>
+          </div>
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-3 mb-4">
+            <h5 class="mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li>
+                <a href="https://biobiz.in/about/" class="text-white">About</a>
+              </li>
+              <li>
+                <a href="https://biobiz.in/s/opp/" class="text-white"
+                  >Opportunities</a
+                >
+              </li>
+              <li>
+                <a href="https://biobiz.in/contact/" class="text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Services -->
+          <div class="col-lg-2 col-md-3 mb-4">
+            <h5 class="mb-3">Services</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://biobiz.in/s/consulting" class="text-white"
+                  >Consulting</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://biobiz.in/category/innovation-insights/"
+                  class="text-white"
+                  >Innovation Insights</a
+                >
+              </li>
+              <li>
+                <a href="https://biobiz.in/insights/" class="text-white"
+                  >Biomass Residues</a
+                >
+              </li>
+              <li>
+                <a href="https://biobiz.in/category/updates/" class="text-white"
+                  >India Updates</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Social Media & Newsletter -->
+          <div class="col-lg-4 col-md-6">
+            <h5 class="mb-3">Stay Connected</h5>
+            <p>Follow us on social media for the latest updates and news.</p>
+            <div class="d-flex mb-3">
+              <a href="#" class="text-white me-3"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="ask@biobiz.in" class="text-white me-3"
+                ><i class="bi bi-envelope"></i
+              ></a>
+              <a href="#" class="text-white me-3"><i class="bi bi-x"></i></a>
+              <a
+                href="https://www.linkedin.com/showcase/biobizindia/"
+                class="text-white me-3"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="bi bi-instagram"></i
+              ></a>
+
+              <a href="#" class="text-white me-3"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+
+              <a href="#" class="text-white"><i class="bi bi-telegram"></i></a>
+            </div>
+            <form>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Subscribe to our newsletter"
+                  aria-label="Email"
+                />
+                <button class="btn btn-success" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
