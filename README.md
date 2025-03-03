@@ -4,6 +4,9 @@
 BioBiz is a modern, professional, and responsive website redesign project aimed at improving user experience, enhancing visual aesthetics, and optimizing website performance. The redesign incorporates dynamic navigation, interactive elements, responsive layouts, and accessibility enhancements to deliver a seamless experience across devices.
 
 ---
+## 🌐 Live Demo
+Check it out here: **[APP Link](https://transcendent-dango-2481d4.netlify.app/)**
+---
 
 ## Features
 - **Dynamic Navigation Bar:** A fully responsive and user-friendly navigation bar with dropdowns and smooth scrolling.
